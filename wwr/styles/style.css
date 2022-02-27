@@ -8,10 +8,11 @@ nav a {
     text-decoration: none;
     color: antiquewhite;
     padding: 35px;
+    font-family: "M PLUS Rounded 1c", Georgia, 'Times New Roman', Times, serif;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    color: white;
+    color: white
 }
 .button-box {
     text-align: center;
