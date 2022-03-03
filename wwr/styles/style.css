@@ -209,7 +209,10 @@ nav {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        
+    }
+    #hero-msg h1 {
+        color: #214778;
     }
     .river-card, .camping-card, .rapids-card { 
         margin: 50px auto;
@@ -226,4 +229,37 @@ nav {
     footer {
         margin-top: 25px;
     }
+}
+.subpage-title {
+    text-align: center;
+    color: #214778;
+}
+.Gray-Canyon {
+    text-align: center;
+    color: #214778;
+}
+#Salmon {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#Desolation {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#Salmon-p {
+    text-align: center;
+    padding: 10px 100px 0 100px;
+}
+
+#desolation-p {
+    text-align: center;
+    padding: 10px 100px 0 100px;
 }
