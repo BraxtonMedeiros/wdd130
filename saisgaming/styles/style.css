@@ -70,7 +70,7 @@ h1, h2 {
     padding: 50px 0px 120px 0px;
 }
 #img_pohn {
-    width: 50%;
+    width: 350px;
     margin: 0 auto;
     display: block;
 }
@@ -88,6 +88,7 @@ footer {
 }
 footer h3 {
     color: white;
+    font-size: 75%;
 }
 footer a {
     color: white;
@@ -196,4 +197,12 @@ li {
 }
 .slider span:hover img {
     transform: translateY(-50px) scale(1.2);
+}
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
